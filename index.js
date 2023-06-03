@@ -17,4 +17,3 @@ app.get('/check', checkAuth, (req, res) => {
 app.listen(port, () => {
 	console.log(`app running at port ${port}`);
 });
-
